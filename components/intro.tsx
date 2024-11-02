@@ -47,7 +47,7 @@ export default function Intro() {
       </div>
 
       {/* bio */}
-      <motion.p
+      <motion.h1
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-2xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
@@ -61,7 +61,7 @@ export default function Intro() {
           Data Science & Deep Learning (Language models)
         </span>
         .
-      </motion.p>
+      </motion.h1>
 
       {/* contact info buttons */}
       <motion.div
