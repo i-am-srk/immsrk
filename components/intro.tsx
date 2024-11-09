@@ -10,7 +10,10 @@ import { FaGithub } from "react-icons/fa";
 
 export default function Intro() {
   return (
-    <section className="mb-28 max-w-[50rem] text-center sm:mb-0">
+    <section
+      id="home"
+      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+    >
       {/* to have image and emoji */}
       <div className="flex items-center justify-center">
         <div className="relative">
